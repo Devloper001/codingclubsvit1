@@ -1,0 +1,215 @@
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-blue_color-color: #3480e3;
+}
+
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: var(--global-font-family);
+}
+
+#font18 {
+  font-size: 18px;
+}
+
+#space1 {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+#space {
+  margin-top: 3%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#font20 {
+  font-size: 20px;
+}
+
+#space2 {
+  padding-bottom: 25px;
+  font-size: 35px;
+  letter-spacing: 0.044em;
+}
+
+#nav-pos {
+  top: 0px;
+  left: 0px;
+}
+
+.wrapper {
+  overflow: hidden;
+  background-image: url(../media/images_homepage/home.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+.card-dim {
+  max-height: 35em;
+  min-height: 35em;
+  max-width: 18em;
+  margin: auto;
+}
+
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .image1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .col-sm-auto {
+    padding-top: 20px;
+  }
+
+  .col-lg-5 {
+    padding-top: 30px;
+  }
+
+  .col-md-5 {
+    padding-top: 30px;
+  }
+}
+
+#iitglogo {
+  text-align: center;
+}
+
+#activenavtab {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+}
+
+.card {
+  border-width: 0px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0.2px #3480e3;
+}
+
+/*button*/
+
+button {
+  border-width: 0px;
+}
+
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
+}
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
+}
+
+/*button end*/
+
+/*navbar*/
+
+#navbar-content {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
+}
+
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
+}
+
+.svit {
+  font-size: 21px;
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  letter-spacing: 0.07em;
+}
+
+/*nav*/
+
+@media (max-width: 435px) {
+  .inner-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #space2 {
+    padding-top: 30px !important;
+    padding-bottom: 5px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  #clublogo {
+    width: 70%;
+  }
+  #cclogoright {
+    font-size: 20px;
+    margin-left: -20%;
+  }
+
+  .svit {
+    font-size: 15px;
+    margin-left: -20%;
+  }
+}
+
+@media (max-width: 325px) {
+  #clublogo {
+    width: 70%;
+  }
+  #cclogoright {
+    font-size: 16px;
+    margin-left: -20%;
+  }
+  .svit {
+    font-size: 13px !important;
+    margin-left: -20%;
+  }
+}
